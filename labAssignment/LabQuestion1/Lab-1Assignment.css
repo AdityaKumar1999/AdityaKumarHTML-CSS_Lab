@@ -1,0 +1,30 @@
+* .bar{
+    background-color: red;
+    text-align: end;
+    padding: 5px;
+
+}
+.navbar{
+    background-color: gray
+}
+.navbar ul{
+    overflow: Auto;
+    padding: 10px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    color: white;
+}
+.navbar li:hover{
+    background-color: black;
+}
+.B{
+        display: none;
+        
+    }
+    .A:hover+.B{
+        text-decoration: none;
+        display: block;
+    }
